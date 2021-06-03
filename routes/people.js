@@ -18,8 +18,9 @@ api.get('/', (req, res) => {
     }    
     db.end();
   });
-  
+
   console.log(aData);
+
   /*
   let result = database.people;
   Object.keys(req.query).forEach((key) => {
@@ -30,7 +31,8 @@ api.get('/', (req, res) => {
   console.log(result);
   res.send(result)
   */
- res.send(JSON.stringify(aData));
+ 
+  res.send(JSON.stringify(aData));
 })
 
 api.get('/:id', (req, res) => {
