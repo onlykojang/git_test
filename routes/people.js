@@ -18,7 +18,7 @@ api.get('/', (req, res) => {
     }    
     db.end();
   });
-console.log(aData);
+  console.log(aData);
   /*
   let result = database.people;
   Object.keys(req.query).forEach((key) => {
