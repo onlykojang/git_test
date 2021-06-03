@@ -18,6 +18,7 @@ api.get('/', (req, res) => {
     }    
     db.end();
   });
+  
   console.log(aData);
   /*
   let result = database.people;
