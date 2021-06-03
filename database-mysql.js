@@ -18,6 +18,6 @@ module.exports = {
       } else {
         console.log('mysql is connected');
       }
-    });
+    });    
   }
 }
