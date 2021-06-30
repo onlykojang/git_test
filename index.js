@@ -20,6 +20,7 @@ app.use('/api/software', softwareRouter)
 app.use('/api/equipment', equipmentRouter)
 app.use('/api/supply', supplyRouter)
 
+// 리슨 테스트 .. 
 
 app.listen(port, () => {
   console.log(`REST API listening at http://localhost:${port}`)
